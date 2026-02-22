@@ -6,9 +6,10 @@
 }
 
 body.home {
-    background-color:brown;
+    background-color:rgb(243, 164, 170);
     min-height: 100vh;
     margin: 0;
+    position: relative;
 }
 
 .main-title {
@@ -16,6 +17,37 @@ body.home {
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    font-size: 260px;
+    font-size: 270px;
     margin-top: 30px;
+}
+.container {
+    display: flex;
+    height: calc(100vh - 60px);
+}
+
+
+.left {
+    flex:1;
+    background-color: #faf9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+}
+
+.right {
+    flex: 1; 
+    background-color: rgb(243, 164, 170);
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif;;
+    font-size: 40px;
+    line-height: 1.4;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    text-align: center;
 }
