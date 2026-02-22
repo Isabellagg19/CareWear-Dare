@@ -22,7 +22,7 @@ body.home {
 }
 .container {
     display: flex;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 0px);
 }
 
 
@@ -40,10 +40,13 @@ body.home {
 .right {
     flex: 1; 
     background-color: rgb(243, 164, 170);
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
 }
 
 h1 {
-    font-family: "Open Sans", sans-serif;;
+    font-family: "Open Sans", sans-serif;
     font-size: 40px;
     line-height: 1.4;
     margin-left: 40px;
@@ -51,3 +54,32 @@ h1 {
     margin-bottom: 50px;
     text-align: center;
 }
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.buttons {
+  gap: 12px;
+  justify-content: center;
+  margin-top: 20px;
+  align-content: center;
+}
+
+
+.btn {
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(255, 82, 125);
+  color: #070505;
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
