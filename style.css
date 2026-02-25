@@ -18,7 +18,7 @@ body.home {
     font-style: normal;
     text-align: center;
     font-size: 270px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .container {
     display: flex;
@@ -90,7 +90,7 @@ h2 {
 }
 
 .join-page {
-    background-color: rgb(248, 174, 113);
+    background-color: rgb(250, 198, 163);
     min-height: 100vh;
     margin: 0;
 }
@@ -105,13 +105,41 @@ h3 {
 
 .subtitle {
     font-family: "Open Sans", sans-serif;
-    font-size: 25px;
-    margin: 70px;
+    font-size: 20px;
+    margin: 20px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 
 .important {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 50px;
+}
+
+.box {
+    flex: 1;
+    background: rgb(216, 135, 81);
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 15px;
+}
+
+.weeks {
+    flex: 1;
+    max-width: 600px;
+    background-color:#faf9f9;
+    padding: 40px;
+    border-radius: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
 }
