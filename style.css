@@ -114,6 +114,7 @@ h3 {
 .important {
     font-weight: 700;
     font-size: 25px;
+    font-family: "Outfit", sans-serif;
 }
 
 .container2 {
@@ -141,5 +142,59 @@ h3 {
     padding: 40px;
     border-radius: 15px;
     font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+h4{
+    font-family: "Outfit", sans-serif;
+    letter-spacing: 1px;
+    font-size: 23px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.button-weeks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+
+.btn2 {
+    display: inline-block;
+    font-family: "Outfit", sans-serif;
     font-size: 20px;
+    font-weight: 600;
+    background-color: #c7834c;
+    color: #000000;
+    border-radius: 999px;
+    cursor: pointer;
+    padding: 10px 20px;  
+    text-decoration: none; 
+    transition: all 0.3s ease;
+}
+
+.btn2:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    background-color: #d8925c;
+}
+
+.body-week1 {
+    background:#EAD8C0;
+}
+.body-week2 {
+    background: #A8BFA0;
+}
+.body-week3 {
+    background: #D8A47F;
+}
+.body-week4 {
+    background: #77a18c;
+}
+
+.space {
+    gap: 20px;
 }
