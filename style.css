@@ -196,10 +196,14 @@ h4{
 }
 
 .space {
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .start{
     font-size: 25px;
     font-weight: 600;
+}
+
+.body-quiz {
+    background:rgb(250, 198, 163);
 }
