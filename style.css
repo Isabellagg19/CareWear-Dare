@@ -204,6 +204,45 @@ h4{
     font-weight: 600;
 }
 
-.body-quiz {
-    background:rgb(250, 198, 163);
+.quiz-container {
+  background-color: rgb(201, 118, 85);
+  width: 500px;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+  margin: 40px auto;
+  font-family: "Outfit", sans-serif;
 }
+
+.quiz-container h3 {
+  margin-bottom: 30px;
+}
+
+#answers button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 30px;
+  border: none;
+  background-color: #cc4735;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#answers button:hover {
+  background-color: #d87f5a;
+  transform: scale(1.03);
+}
+
+#next-btn {
+  margin-top: 20px;
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
