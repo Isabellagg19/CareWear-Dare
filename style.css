@@ -632,5 +632,46 @@ font-weight: bold;
   box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
 
+.subtitle-congratulations2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #020202;
+    font-size: 18px;
+    max-width: 750px;
+    margin: 40px auto;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.final-mesagge {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #020202;
+    font-size: 22px;
+    max-width: 750px;
+    margin: 40px auto;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.quote {
+    font-family: "Poiret One", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8f8606;
+    letter-spacing: 4px;
+    max-width: 750px;
+    margin: 40px auto;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.name-quote{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
 
 
