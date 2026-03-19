@@ -75,9 +75,9 @@ function showResult() {
   let resultText = "";
 
   if (score <= 2) {
-    resultText = "You’re a Conscious Shopper! You really think before buying.";
+    resultText = "You’re a Conscious Shopper! You really think before buying";
   } else if (score <= 4) {
-    resultText = " You’re in the Middle! You care, but there’s room to grow.";
+    resultText = " You’re in the Middle! You care, but there’s room to grow";
   } else {
     resultText = "Fast Fashion Fan! Time to rethink some habits";
   }
