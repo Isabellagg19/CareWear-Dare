@@ -170,12 +170,6 @@ h4{
     transition: all 0.3s ease;
 }
 
-.btn2:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-    background-color: #d8925c;
-}
-
 .body-week1 {
     background:#EAD8C0;
 }
@@ -194,7 +188,7 @@ h4{
 }
 
 .start{
-     font-size: 25px;
+    font-size: 25px;
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -204,7 +198,6 @@ h4{
   width: 500px;
   padding: 40px;
   border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
   text-align: center;
   margin: 40px auto;
   font-family: "Outfit", sans-serif;
@@ -224,11 +217,6 @@ h4{
   background-color: #cc4735;
   cursor: pointer;
   transition: 0.3s;
-}
-
-#answers button:hover {
-  background-color: #d87f5a;
-  transform: scale(1.03);
 }
 
 #next-btn {
@@ -305,7 +293,7 @@ h4{
     font-size: 18px;
     max-width: 750px;
     margin: 40px auto;
-    line-height: 1.7;
+    line-height: 1;
     text-align: left;
 }
 
@@ -332,7 +320,7 @@ h4{
     font-size: 18px;
     max-width: 750px;
     margin: 40px auto;
-    line-height: 1.7;
+    line-height: 1;
     text-align: left;
 }
 
@@ -358,7 +346,7 @@ h4{
 }
 
 .start-week2 {
-     font-size: 25px;
+    font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
     color: #0f3f2f;
@@ -410,10 +398,11 @@ h4{
 }
 
 .ideas h6{
-     margin: 15px 0 10px;
+  margin: 15px 0 10px;
   color: #006938;
   font-size: 24px;
 }
+
 .ideas p {
   font-size: 14px;
   color: #555;
@@ -441,7 +430,7 @@ h4{
 }
 
 .dare3:hover:hover {
-     transform: translateY(-6px);
+    transform: translateY(-6px);
     box-shadow: 0 20px 50px rgba(0,0,0,0.08);
 }
 
