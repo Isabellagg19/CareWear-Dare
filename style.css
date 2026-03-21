@@ -261,20 +261,8 @@ h4{
     text-align: left;
     position:relative;
     border-left: 6px solid #e8a0bf;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.dare1:hover {
-     transform: translateY(-6px);
-    box-shadow: 0 20px 50px rgba(0,0,0,0.08);
-}
-
-.dare p:first-child {
-    font-size: 22px;
-    font-weight: 600;
-    color: #5f4a4e;
-    margin-bottom: 25px;
-}
 
 .title-week {
    font-family: "Playfair Display", serif;
@@ -337,13 +325,8 @@ h4{
     text-align: left;
     position:relative;
     border-left: 6px solid #12976b;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.dare2:hover {
-     transform: translateY(-6px);
-    box-shadow: 0 20px 50px rgba(0,0,0,0.08);
-}
 
 .start-week2 {
     font-size: 25px;
@@ -427,11 +410,6 @@ h4{
     border-left: 6px solid #bb5768;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     
-}
-
-.dare3:hover:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 20px 50px rgba(0,0,0,0.08);
 }
 
 .dare-label{
@@ -519,7 +497,6 @@ font-weight: bold;
     text-align: left;
     position:relative;
     border-left: 6px solid #252847;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .last-button {
