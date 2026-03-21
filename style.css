@@ -597,6 +597,19 @@ font-weight: bold;
 
 }
 
+.checklist h5 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #080708;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
 .checklist label {
   display: flex;
   margin: 12px 0;
@@ -612,6 +625,22 @@ font-weight: bold;
   background-color: white;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+#newhabit1 {
+    color:#00000052;
+}
+
+#newhabit2 {
+    color: #00000091;
+}
+
+#newhabit3 {
+    color: #0a0a0acb;
+}
+
+#newhabit4 {
+    color: #000000;
 }
 
 .subtitle-congratulations2 {
@@ -638,22 +667,30 @@ font-weight: bold;
     text-align: center;
 }
 
-.quote {
-    font-family: "Poiret One", sans-serif;
-    font-size: 16px;
+.quote{ 
+   font-family: "Poiret One", sans-serif;
     font-weight: 400;
-    color: #8f8606;
-    letter-spacing: 4px;
     max-width: 750px;
-    margin: 40px auto;
     line-height: 1.7;
     text-align: center;
+} 
+
+#quote1 {
+    color:#a58700;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
-.name-quote{
-    text-align: left;
+#name-quote{
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 18px;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 80px;
+    color: #6d6602;
 }
 
 
